@@ -1,14 +1,14 @@
 ## mamba-minimal
 
-Simple, minimal implementation of Mamba in one file of PyTorch.
+在一个 PyTorch 文件中简单、最小化地实现 Mamba。
 
-Featuring:
-* Equivalent numerical output as official implementation for both forward and backward pass
-* Simplified, readable, annotated code
+特点
+* 正向和反向传递的数值输出与官方实现相同
+* 简化、可读、带注释的代码
 
-Does NOT include:
-* Speed. The official implementation is heavily optimized, and these optimizations are core contributions of the Mamba paper. I kept most implementations simple for readability.
-* Proper parameter initialization (though this could be added without sacrificing readability)
+不包括
+* 速度。官方实现进行了大量优化，这些优化是 Mamba 论文的核心贡献。为了提高可读性，我对大部分实现进行了简化。
+* 适当的参数初始化（当然也可以在不影响可读性的前提下进行添加）
 
 ## Demo
 
@@ -24,8 +24,8 @@ tokenizer = AutoTokenizer.from_pretrained('EleutherAI/gpt-neox-20b')
 generate(model, tokenizer, 'Mamba is the')
 ```
 > Mamba is the world's longest venomous snake with an estimated length of over 150 m. With such a large size and a venomous bite, Mamba kills by stabbing the victim (which is more painful and less effective than a single stab of the bite)
-
-150 meters... 🫢 scary!
+> 
+测试demo可以直接在colab上面运行
 
 ## References
 
