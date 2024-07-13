@@ -25,7 +25,7 @@ generate(model, tokenizer, 'Mamba is the')
 ```
 > Mamba is the world's longest venomous snake with an estimated length of over 150 m. With such a large size and a venomous bite, Mamba kills by stabbing the victim (which is more painful and less effective than a single stab of the bite)
 > 
-测试demo可以直接在colab上面运行
+测试[mamba_minmal.ipynb](mamba_minmal.ipynb)demo可以直接在colab上面运行
 
 ## References
 
